@@ -21,7 +21,7 @@ router.get('/product',(req, res, next) => {
 });
 
 
-router.get('/service',(req, res, next) => {
+router.get('/Services',(req, res, next) => {
   res.render('index', { title: 'Services' });
 });
 
